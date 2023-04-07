@@ -18,4 +18,4 @@ def solution(p: float, x: np.array) -> tuple:
     #       loc - scale * norm.ppf(alpha / 2)
     #return x.mean() + np.sqrt(40*np.var(x)) * norm.ppf(1 - alpha / 2) / np.sqrt(len(x)), \
     #       x.mean() + np.sqrt(40*np.var(x)) * norm.ppf(alpha / 2) / np.sqrt(len(x))
-    return (1-alpha)/np.sqrt(40)
+    return (1-alpha)/40
